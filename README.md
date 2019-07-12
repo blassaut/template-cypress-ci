@@ -1,4 +1,4 @@
-Template Cypress - Implémentation et intégration de tests automatisés à la CI
+Template Cypress - Implémentation de tests automatisés en CI
 ==
 Description
 -
