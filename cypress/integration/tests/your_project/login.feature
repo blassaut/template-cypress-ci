@@ -5,6 +5,3 @@ Feature:  Login
         When  I set "username" And "password"
         When  I click on the submit Button 
         Then  The user is logged in 
-
-
-
