@@ -1,0 +1,13 @@
+{
+	"RightUser":
+		{
+		"id":"user",
+		"password":"password"
+		}
+	,
+	"FakeUser":
+		{
+		"id":"user",
+		"password":"password"
+		}
+}

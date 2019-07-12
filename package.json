@@ -1,0 +1,43 @@
+{
+  "name": "e2e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:verify": "cypress verify",
+    "cypress:ci": "npx cypress run --spec 'cypress/integration/tests/your_project/**.feature'",
+    "cypress:merge": "npx mochawesome-merge --reportDir cypress/results > cypress/results/results.json",
+    "cypress:tm4j": "node cypress/plugins/data/transformJsonToTmjFormat.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "your_repo_git"
+  },
+  "keywords": [
+    "cypress",
+    "cypress-io",
+    "example",
+    "gitlab"
+  ],
+  "author": "contact@bldts.xyz",
+  "license": "ISC",
+  "dependencies": {
+    "@cypress/webpack-preprocessor": "^4.1.0",
+    "cypress": "^3.3.1",
+    "qewd-transform-json": "^1.11.0",
+    "ts-loader": "^6.0.2",
+    "typescript": "^3.5.1",
+    "webpack": "^4.33.0"
+  },
+  "devDependencies": {
+    "cypress-cucumber-preprocessor": "^1.12.0",
+    "mocha": "5.2.0",
+    "mochawesome": "^4.0.1",
+    "mochawesome-merge": "^2.0.1",
+    "mochawesome-report-generator": "^4.0.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}

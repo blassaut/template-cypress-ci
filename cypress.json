@@ -1,0 +1,15 @@
+{  
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/results",
+    "overwrite": false,
+    "html": false,
+    "json": true
+  },
+  "ignoreTestFiles":"*.js",
+    
+    "env":{
+    "baseUrl_A":"YOUR_URL"
+     }
+}
+
