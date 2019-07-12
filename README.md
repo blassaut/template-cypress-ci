@@ -129,7 +129,7 @@ Lancement des tests en ligne de commande (Intégration continue)
 
 Pour lancer les tests en local :
 
-    npx cypress run --spec 'cypress/integration/tests/panel-weball/**.feature'
+    npx cypress run --spec 'cypress/integration/tests/your_project/**.feature'
 
 Pour merger les rapports de tests au format mochawesome_XXX.json en local vers un seul fichier results.json :
 
